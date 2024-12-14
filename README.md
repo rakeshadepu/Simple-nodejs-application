@@ -43,8 +43,8 @@ EMAIL_PASS=your_email_password                          # App-specific email pas
 Clone the repository and install dependencies using the following commands:
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/rakeshadepu/Simple-nodejs-application
+cd Simple-nodejs-application
 npm install
 ```
 
@@ -197,26 +197,10 @@ This project provides a RESTful API for user authentication and profile manageme
   ```
 
 ---
-
 ## How Email Confirmation Works
 
 1. **Sign Up**: A confirmation email is sent with a unique code upon user registration.
 2. **Verification**: The user inputs the code into the `/api/verify-email` endpoint to verify their email address.
 3. **Login**: The user can log in only after email verification is successful.
-
----
-
-## Troubleshooting
-
-- **Email Not Received**: Ensure the email address is correct and check the spam folder. Double-check the email credentials in `.env`.
-- **Database Connection Errors**: Verify that `MONGO_URI` in `.env` points to the correct MongoDB instance.
-- **JWT Issues**: Ensure `JWT_SECRET` in `.env` matches the one used in the code.
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-```
 
 ---
