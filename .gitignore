@@ -1,0 +1,8 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables file
+.env
+
+# Optional: Ignore package-lock.json (not recommended but if you really need it)
+package-lock.json
